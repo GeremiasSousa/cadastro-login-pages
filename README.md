@@ -22,9 +22,9 @@ Para executar o projeto localmente, basta abrir os arquivos HTML em um navegador
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/GeremiasSousa/cadastro-login-pages.git
 
 # Navegue até o diretório do projeto
-cd nome-do-repositorio
+cd cadastro-login-pages
 
 # Abra o arquivo 'cadastro.html' ou 'login.html' em um navegador
