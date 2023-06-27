@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="estilo.css" type="text/css" media="all" />
+  <title>Formulário</title>
+
+  <body>
+    <div class="box">
+      <div class="img-box">
+        <img src="./icon/img-formulario.png">
+      </div>
+      <div class="form-box">
+        <h2 class="h2">Criar Conta</h2>
+        <p>
+          Já é um membro? <a href="login.html"> Login </a>
+        </p>
+        <form action="" method="post">
+          <div class="input-group">
+            <label id="labelname" for="nome"> Nome Completo</label>
+            <div class="input-text">
+            <input type="text" id="nome" name="nome" placeholder="Digite o seu nome completo" autocomplete="off" required>
+          </div></div>
+
+          <div class="input-group">
+            <label id="labelemail" for="email">E-mail</label>
+            <div class="input-text">
+            <input type="email" id="email" name="email" placeholder="Digite o seu email"  autocomplete="off" required>
+          </div></div>
+
+          <div class="input-group ">
+            <label id="labelsenha" for="senha">Senha</label>
+            <div class="input-text">
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha" autocomplete="off" required>
+            <img src="icon/hidden.png" alt="icon/eye.png" class="eye" onclick="converter()" >
+          </div>
+
+          <div class="input-group">
+            <button type="submit">Cadastrar</button>
+            
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="libre js/mainCadastro.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilo.css" type="text/css" media="all" />
+    <title>Formulário</title>
+
+<body>
+    <div class="box">
+        <div class="img-box">
+            <img src="./icon/img-formulario.png">
+        </div>
+        <div class="form-box">
+            <h2 class="h2">Criar Conta</h2>
+            <p>
+                Não é um membro? <br /> <a href="cadastro.html"> Cadastre-se </a>
+            </p>
+
+            <form action="" method="post">
+
+                <div class="input-group">
+                    <label for="email" id="labelemail">E-mail</label>
+                    <div class="input-text">
+                        <input type="email" id="email" name="email" placeholder="Digite o seu email" required>
+                    </div>
+                </div>
+
+
+                <div class="input-group ">
+                    <label for="senha" id="labelsenha">Senha</label>
+                    <div class="input-text">
+                        <input type="password" id="senha" name="senha" placeholder="Digite sua senha" required>
+                        <img src="icon/hidden.png" alt="icon/hidden.png" class="eye" onclick="converter()">
+                    </div>
+                </div>
+
+
+
+                <div class="input-group">
+                    <button type="submit" class="btn">Entrar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+    <script src="libre Js/login.js"></script>
+</body>
+
+</html>
